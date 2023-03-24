@@ -12,7 +12,7 @@ function App() {
       name: 'Bulbasaur',
       cp: 439,
       color: 'green',
-      img: './assets/bulbasaur.png'
+      img: '../../public/assets/bulbasaur.png'
     },
     {
       id: 2,
