@@ -19,63 +19,63 @@ function App() {
       name: 'Vulpix',
       cp: 194,
       color: 'brown',
-      img: "src/assets/vulpix.png"
+      img: "assets/vulpix.png"
     },
     {
       id: 3,
       name: 'Pikachu',
       cp: 455,
       color: 'yellow',
-      img: "src/assets/pikachu.png"
+      img: "assets/pikachu.png"
     },
     {
       id: 4,
       name: 'Gyarados',
       cp: 2243,
       color: 'pink',
-      img: "src/assets/gyarados.png"
+      img: "assets/gyarados.png"
     },
     {
       id: 5,
       name: 'Pidgey',
       cp: 248,
       color: 'blue',
-      img: "./src/assets/pidgey.png"
+      img: "assets/pidgey.png"
     },
     {
       id: 6,
       name: 'Wigglytuff',
       cp: 1362,
       color: 'red',
-      img: "src/assets/wigglytuff.png"
+      img: "assets/wigglytuff.png"
     },
     {
       id: 7,
       name: 'Oddish',
       cp: 610,
       color: 'black',
-      img: "src/assets/oddish.png"
+      img: "assets/oddish.png"
     },
     {
       id: 8,
       name: 'Haunter',
       cp: 735,
       color: 'white',
-      img: "src/assets/haunter.png"
+      img: "assets/haunter.png"
     },
     {
       id: 9,
       name: 'Onix',
       cp: 1002,
       color: 'purple',
-      img: "src/assets/onix.png"
+      img: "assets/onix.png"
     },
     {
       id: 10,
       name: 'Exeggutor',
       cp: 2916,
       color: 'beige',
-      img: "src/assets/exeggutor.png"
+      img: "assets/exeggutor.png"
     }
   ];
   // let chosenPokemonsList = []
