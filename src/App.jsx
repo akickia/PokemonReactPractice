@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css'
+import Footer from './Components/Footer';
 import PokemonsList from './Components/PokemonsList';
 
 
@@ -28,6 +29,42 @@ function App() {
       name: 'Gyarados',
       cp: 2243,
       color: 'pink'
+    },
+    {
+      id: 5,
+      name: 'Pidgey',
+      cp: 248,
+      color: 'blue'
+    },
+    {
+      id: 6,
+      name: 'Wigglytuff',
+      cp: 1362,
+      color: 'red'
+    },
+    {
+      id: 7,
+      name: 'Oddish',
+      cp: 610,
+      color: 'black'
+    },
+    {
+      id: 8,
+      name: 'Haunter',
+      cp: 735,
+      color: 'white'
+    },
+    {
+      id: 9,
+      name: 'Onix',
+      cp: 1002,
+      color: 'purple'
+    },
+    {
+      id: 10,
+      name: 'Exeggutor',
+      cp: 2916,
+      color: 'beige'
     }
   ];
   // let chosenPokemonsList = []
@@ -65,6 +102,7 @@ function App() {
         <PokemonsList pokemons={chosenPokemons} title="Chosen Pokémons" handleClick={removeFromChosenPokemon} />
       </section>
     </main>  
+    <Footer />
   </>
   )
 }

@@ -7,7 +7,7 @@ function PokemonsList({pokemons, title, handleClick}) {
       totalCP += p.cp        
     });
     if (title === "Chosen Pokémons") {
-      return totalCP
+      return `Total: ${totalCP} CP`
     }
   }
   return ( 
@@ -25,7 +25,7 @@ function PokemonsList({pokemons, title, handleClick}) {
       </section>
 
         <p>{calcCP()}</p>
-
+  
     </section>
    );
 }
