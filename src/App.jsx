@@ -39,7 +39,7 @@ function App() {
       name: 'Pidgey',
       cp: 248,
       color: 'blue',
-      img: "src/assets/pidgey.webp"
+      img: "./src/assets/pidgey.webp"
     },
     {
       id: 6,
