@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css'
 import Footer from './Components/Footer';
 import PokemonsList from './Components/PokemonsList';
+import bulbasaur from './assets/bulbasaur.png'
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       name: 'Bulbasaur',
       cp: 439,
       color: 'green',
-      img: "src/assets/bulbasaur.webp"
+      img: {bulbasaur}
     },
     {
       id: 2,
